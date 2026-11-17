@@ -1,0 +1,10 @@
+[project]
+name = "refatoracao-es2"
+version = "1.0"
+description = "Liga da Refatoração - Engenharia de Software 2 (UFPA)"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--import-mode=importlib"
